@@ -10,7 +10,7 @@ ten projekt zostal utworzony przy pomocy wersji: rustc 1.42.0-nightly (da3629b05
 
 Nastepnie pobieramy repozytorium z github.
 
-W pliku .env w glównym folderze projektu ustawiamy adres bazy danych: mysql://root:pass@127.0.0.1:3306/gamedb
+W pliku .env w glï¿½wnym folderze projektu ustawiamy adres bazy danych: mysql://root:pass@127.0.0.1:3306/gamedb
 
 root - nazwa uzytkownika
 
@@ -18,13 +18,13 @@ pass - haslo
 
 gamedb -nazwa bazy danych
 
-Odpalamy konsole tak, aby znajdowala sie w glównym folderze aplikacji, uruchamiamy aplikacje komenda: cargo run
+Odpalamy konsole tak, aby znajdowala sie w glï¿½wnym folderze aplikacji, uruchamiamy aplikacje komenda: cargo run
 
 endpoint:
 POST
 /action
 
-np: http://127.0.0.1:8000/action
+np: http://127.0.0.1:8777/action
 
 przykladowe Body
 {

@@ -5,9 +5,8 @@ use std::env;
 
 pub fn new_connection() -> Pool {
     dotenv().ok();
-    let db_url: String = env::var("DATABASE_URL").expect("can't find DATABASE_URL env variable");
-    return mysql::Pool::new(db_url)
-        .expect("error while connecting to db");
+    let db_url: String = env::var("DATABASE_URL").expect("can't find DATABASE_URL env variable");  
+    return mysql::Pool::new(db_url).expect("error while connecting to db");    
 }
 
 pub fn create_table_action(conn: &mut Pool) {
